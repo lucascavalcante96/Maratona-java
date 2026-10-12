@@ -10,5 +10,7 @@ public class A02TiposPrimitivos {
         byte b1 = 1;
         short s1 = 1;
         long l1 = 100000;
+
+        String nome = "Lucas";
     }
 }
