@@ -9,5 +9,7 @@ public class A04Operadores {
         int multiplicacao = numero2 * numero1;
         double divisao = (double) numero1 / numero2;
 
+        double resto = numero2 % 7;
+
     }
 }
