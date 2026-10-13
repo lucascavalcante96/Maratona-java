@@ -11,5 +11,18 @@ public class A04Operadores {
 
         double resto = numero2 % 7;
 
+        //OPperadores Lógico
+
+        int idade = 17;
+        boolean tituloDeEleitor = false;
+        boolean podeVotar = idade >= 16 && tituloDeEleitor == true;
+
+        boolean estudante = false;
+        boolean maiorQue65 = true;
+
+        boolean direitoGratuidade = estudante == true || maiorQue65 == true;
+
+
+
     }
 }
