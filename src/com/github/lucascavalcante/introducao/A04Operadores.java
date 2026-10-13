@@ -22,7 +22,9 @@ public class A04Operadores {
 
         boolean direitoGratuidade = estudante == true || maiorQue65 == true;
 
-
+        double bonus = 2000;
+        bonus += 800;
+        System.out.println(bonus);
 
     }
 }
