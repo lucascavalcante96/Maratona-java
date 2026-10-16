@@ -6,6 +6,9 @@ public class A07Arrays02 {
         nomes[0] = "lucas";
         nomes[1] = "Maria";
         nomes[2] = "Jose";
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.println(nomes[i]);
+        }
 
         for(String nome : nomes){
             System.out.println(nome);
