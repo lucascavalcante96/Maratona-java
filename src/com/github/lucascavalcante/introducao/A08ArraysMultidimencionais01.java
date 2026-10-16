@@ -27,5 +27,14 @@ public class A08ArraysMultidimencionais01 {
             // Pula para a próxima linha da tabela
             System.out.println();
         }
+        System.out.println("-------------------");
+        System.out.println("P1\tP2\tP3");
+        //fazendo um for each
+        for (int [] arrayBase : notas) {
+            for (int nota : arrayBase) {
+                System.out.print(nota + "\t");
+            }
+            System.out.println();
+        }
     }
 }
