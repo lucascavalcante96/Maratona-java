@@ -4,6 +4,7 @@ public class Estutante {
     public String nome;
     public int idade;
     public char sexo;
+    public int ano;
 
     public void imprime(){
         System.out.println("Nome: " + this.nome);
