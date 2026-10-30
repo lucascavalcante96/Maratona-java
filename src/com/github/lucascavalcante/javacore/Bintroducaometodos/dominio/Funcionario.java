@@ -1,9 +1,11 @@
 package com.github.lucascavalcante.javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double [] salarios;
+    private String nome;
+    private int idade;
+    private double [] salarios;
+
+
 
     public void retornaDados(){
         System.out.println("Nome do funcionario: " + nome);
