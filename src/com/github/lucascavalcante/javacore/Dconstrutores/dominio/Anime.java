@@ -5,15 +5,22 @@ public class Anime {
     private String tipo;
     private int epsodios;
     private String genero;
+    private String estudio;
 
     public Anime() {
     }
 
     public Anime(String nome, String tipo, int epsodios, String genero) {
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.epsodios = epsodios;
         this.genero = genero;
+    }
+
+    public Anime(String nome, String tipo, int epsodios, String genero, String estudio) {
+        this(nome, tipo, epsodios, genero);
+        this.estudio = estudio;
     }
 
     public void imprime(){
