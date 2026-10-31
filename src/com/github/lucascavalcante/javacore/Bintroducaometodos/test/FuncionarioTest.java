@@ -9,16 +9,19 @@ public class FuncionarioTest {
         Scanner sc = new Scanner(System.in);
         Funcionario f = new Funcionario();
         System.out.print("Digite seu nome: ");
-        f.nome = sc.nextLine();
+        String nome = sc.nextLine();
+        f.setNome(nome);
         System.out.print("Digite sua idade: ");
-        f.idade = sc.nextInt();
-        f.salarios = new double[3];
+        int idade = sc.nextInt();
+        f.setIdade(idade);
+        double[] salarios = new double[3];
+
         for (int i = 0; i < 3; i++) {
             System.out.printf("Digite seu %dº salário: ", i+1);
             double salario = sc.nextDouble();
-            f.salarios[i] = salario;
+            salarios[i] = salario;
         }
-
+        f.setSalarios(salarios);
         f.retornaDados();
         f.mediaSalario();
     }
