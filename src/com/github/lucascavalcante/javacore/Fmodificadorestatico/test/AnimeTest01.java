@@ -9,5 +9,6 @@ public class AnimeTest01 {
         Anime anime3 = new Anime();
 
         System.out.println(anime1.getEpsodios());
+        System.out.println();
     }
 }
