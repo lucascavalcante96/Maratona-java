@@ -1,6 +1,6 @@
 package com.github.lucascavalcante.javacore.Fmodificadorestatico.test;
 
-import com.github.lucascavalcante.javacore.Fmodificadorestatico.domain.Carro;
+import com.github.lucascavalcante.javacore.Fmodificadorestatico.dominio.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {

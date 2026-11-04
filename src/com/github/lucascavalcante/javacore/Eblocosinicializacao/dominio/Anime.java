@@ -1,9 +1,9 @@
-package com.github.lucascavalcante.javacore.Fmodificadorestatico.domain;
+package com.github.lucascavalcante.javacore.Eblocosinicializacao.dominio;
 
 public class Anime {
     private String nome;
-    private static int[] epsodios;
-    static {
+    private int[] epsodios;
+    {
         epsodios = new int[100];
         for (int i = 0; i < epsodios.length; i++) {
             epsodios[i] = i + 1;
@@ -14,7 +14,7 @@ public class Anime {
     }
     public Anime() {
 
-        for(int epsodio : Anime.epsodios){
+        for(int epsodio : epsodios){
             System.out.print(epsodio + " ");
         }
         System.out.println();
@@ -32,4 +32,7 @@ public class Anime {
         return epsodios;
     }
 
+    public void setEpsodios(int[] epsodios) {
+        this.epsodios = epsodios;
+    }
 }

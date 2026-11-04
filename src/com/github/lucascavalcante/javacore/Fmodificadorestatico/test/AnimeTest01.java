@@ -1,6 +1,6 @@
 package com.github.lucascavalcante.javacore.Fmodificadorestatico.test;
 
-import com.github.lucascavalcante.javacore.Fmodificadorestatico.domain.Anime;
+import com.github.lucascavalcante.javacore.Fmodificadorestatico.dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
@@ -8,8 +8,5 @@ public class AnimeTest01 {
         Anime anime2 = new Anime();
         Anime anime3 = new Anime();
 
-        System.out.println(anime1.getEpsodios());
-        System.out.println();
-        System.out.println();
     }
 }

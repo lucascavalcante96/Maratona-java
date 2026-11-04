@@ -1,4 +1,4 @@
-package com.github.lucascavalcante.javacore.Fmodificadorestatico.domain;
+package com.github.lucascavalcante.javacore.Fmodificadorestatico.dominio;
 
 public class Carro {
     private String nome;
