@@ -7,6 +7,9 @@ public class LeituraTeclado01 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite seu nome abaixo: ");
         String nome = sc.nextLine();
+        System.out.println("Digite sua idade: ");
+        int idade = sc.nextInt();
         System.out.println(nome);
+        System.out.println(idade);
     }
 }
