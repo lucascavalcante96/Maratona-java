@@ -1,6 +1,7 @@
 package com.github.lucascavalcante.javacore.Hheranca.Test;
 
 import com.github.lucascavalcante.javacore.Hheranca.Dominio.Endereco;
+import com.github.lucascavalcante.javacore.Hheranca.Dominio.Funcionario;
 import com.github.lucascavalcante.javacore.Hheranca.Dominio.Pessoa;
 
 public class HerancaTest01 {
@@ -13,7 +14,14 @@ public class HerancaTest01 {
         pessoa.setEndereco(endereco);
         pessoa.setNome("Josef dos Santos Silva");
 
-        pessoa.imprime();
+        //pessoa.imprime();
 
+        Funcionario funcionario = new Funcionario();
+        funcionario.setNome(pessoa.getNome());
+        funcionario.setSalario(20000);
+        funcionario.setEndereco(endereco);
+        funcionario.setCpf(pessoa.getCpf());
+
+        funcionario.imprime();
     }
 }
